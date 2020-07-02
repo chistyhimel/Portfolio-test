@@ -1,0 +1,370 @@
+body{
+  background-color: ;
+}
+.section-1 {
+  background-image: url(images/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1250px;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid; */
+  margin: 0 auto;
+}
+
+.box-1 {
+  margin: 0px 0px 0px 0px;
+  width: 400px;
+  height: 300px;
+  padding-left: 0px;
+  /* border: 1px solid; */
+}
+.box-2 {
+  margin: 0px 0px 0px 100px;
+  /* border: 1px solid ; */
+  padding: 0px;
+  width: 500px
+}
+.section-2 {
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1250px;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid; */
+  margin: 0 auto;
+}
+.box-3 {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  padding-left: 0px;
+  /* border: 1px solid; */
+}
+.section-3 {
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1250px;
+  height: 700px;
+  margin: 0 auto;
+}
+.section-4 {
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1250px;
+  height: 700px;
+  /* border: 1px solid; */
+  margin: 0 auto;
+}
+.section-5 {
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1250px;
+  height: 700px;
+  text-align: center;
+  /* border: 1px solid; */
+  margin: 0 auto;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0px 20px 0px;
+}
+p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.button {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ec4f91, tomato);
+  margin-top: 30px;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
+
+
+h1 {
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.548);
+}
+p,
+h4 {
+  color: rgba(0, 0, 0, 0.616);
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  line-height: 1.3;
+}
+h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.box-1 h1:nth-child(2) {
+  color: tomato;
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px;
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.548);
+}
+.flex-items {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 50px;
+}
+.item1 {
+  background-image: url(images/latest-work/work-1.png);
+  height: 200px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+}
+.item2 {
+  background-image: url(images/latest-work/work-2.jpg);
+  height: 200px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+}
+.item3 {
+  background-image: url(images/latest-work/work-3.jpg);
+  height: 200px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+}
+.skill-item1 {
+  background-image: url(images/html-5.jpg);
+  height: 200px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-right: 0px;
+  box-shadow: 10px 10px 40px grey;
+}
+.skill-item2 {
+  background-image: url(images/css-3.jpg);
+  height: 200px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left:00px;
+  box-shadow: 10px 10px 40px grey;
+}
+.client-1 {
+  max-width: 500px;
+  margin: 0px auto;
+}
+.client-1 h3 {
+  font-size: 25px;
+}
+.client-1 h4 {
+  margin-top: 0px;
+}
+.client-1 h5 {
+  color: gray;
+  padding-top: 5px;
+}
+.client-1 p {
+  font-size: 20px;
+  padding: 0px 80px;
+}
+.leave-msg {
+  background-image: linear-gradient(45deg, #ec4f91, tomato);
+  width: 700px;
+  margin: 50px auto;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  line-height: 1.3;
+}
+.leave-msg a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  line-height: 1.3;
+}
+.footer {
+  max-width: 380px;
+  margin: 100px auto;
+}
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .section-1 {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1250px;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+  }
+  .box-1 {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    padding-top: 50px;
+  }
+  .box-2 {
+    margin: 30px auto;
+    padding: 0px 0px;
+    width: 400px;
+    height: 300px;
+  }
+  .box-2 img{
+    width: 100%;
+  }
+  .section-2 img{
+    display: none;
+  }
+  .section-2 {
+    background-image: url(images/header-bg-flip.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1250px;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+  }
+  .box-3 {
+    margin: -200px auto;
+    padding: 0px 0px;
+    width: 400px;
+    height: 300px;
+  }
+  .section-3 {
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1250px;
+    height: 700px;
+    margin: -150px auto 0px auto;
+  }
+.flex-items{
+  display: block;
+  margin: 0px auto;
+}
+.item1 {
+  background-image: url(images/latest-work/work-1.png);
+  height: 150px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+  margin: 0px auto 30px auto;
+  
+}
+.item2 {
+  background-image: url(images/latest-work/work-2.jpg);
+  height: 150px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+  margin: 0px auto 30px auto;
+  
+}
+.item3 {
+  background-image: url(images/latest-work/work-3.jpg);
+  height: 150px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+  margin: 0px auto 0px auto;
+  
+}
+.skill-item1 {
+  background-image: url(images/html-5.jpg);
+  height: 180px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 40px grey;
+}
+.skill-item2 {
+  background-image: url(images/css-3.jpg);
+  height: 180px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 30px auto;
+  box-shadow: 10px 10px 40px grey;
+}
+.client-1 {
+  width: 500px;
+  margin: 0px auto;
+}
+.client-1 h3 {
+  font-size: 25px;
+}
+.client-1 h4 {
+  margin-top: 0px;
+}
+.client-1 h5 {
+  color: gray;
+  padding-top: 5px;
+}
+.client-1 p {
+  font-size: 20px;
+  padding: 0px 80px;
+}
+.leave-msg {
+  background-image: linear-gradient(45deg, #ec4f91, tomato);
+  width: 400px;
+  margin: 50px auto;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  line-height: 1.3;
+}
+.leave-msg a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  line-height: 1.3;
+}
+.footer {
+  max-width: 380px;
+  margin: 180px auto 10px auto;
+}
+}
